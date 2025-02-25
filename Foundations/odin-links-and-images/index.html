@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Links and Images</title>
+    </head>
+    <body>
+        <h1>Homepage</h1>
+        <!-- Anchor element -->
+         <!-- Note: href is an HTML attribute, made from 2 parts: name & value -->
+        <a href="https://www.theodinproject.com/about">About the Odin Project</a>
+        
+        <p></p>
+        
+        <!-- Links by default open in the current tab `_self`, you can change the target -->
+         <!-- rel descripes relation betweeb link page & current, 
+          `noopener` for no interaction backwards
+          `noreferrer` hides referrer(where user came from), also does noopener 
+          Neither is technically required in new browsers, but still a good practice -->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">
+            About the Odin Project in new tab
+        </a>
+
+        <p></p>
+        <h2>Link to another file</h2>
+        <a href="./pages/about.html">About</a>
+        <h2>And now a picture</h2>
+        <img src="./images/dog.jpg">
+        <h3>More things you can do with an image</h3>
+        <img src="./images/dog.jpg" alt="Odin puppy" height="310" width="310">
+
+
+    </body>
+</html>
